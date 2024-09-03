@@ -1,4 +1,4 @@
-# AIML Club - Machine Learning Libraries Workshop
+# AIML Club - Machine Learning Libraries and Data Preprocessing Workshop
 
 Welcome to the AIML Club workshop! In this session, we’ll explore essential Python libraries for data science and machine learning using Google Colab. This README provides an overview of the libraries we’ll be working with:
 
