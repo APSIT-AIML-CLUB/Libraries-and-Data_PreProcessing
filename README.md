@@ -74,3 +74,29 @@ Scikit-Learn is a machine learning library that provides simple and efficient to
 ```python
 !pip install scikit-learn
 ```
+## Data Preprocessing Overview
+
+Data preprocessing is an essential step in the machine learning pipeline. It involves cleaning, transforming, and organizing raw data to make it suitable for building machine learning models. The goal is to prepare the data in a way that improves the performance and accuracy of your model.
+
+### Common Data Preprocessing Steps:
+
+#### 1. Handling Missing Data:
+- Use Pandas to identify and fill or remove missing values.
+- Techniques include filling with mean/median/mode or using Scikit-Learn’s `SimpleImputer`.
+
+#### 2. Encoding Categorical Variables:
+- Convert categorical data into numerical format using techniques like one-hot encoding (`pd.get_dummies`) or label encoding (`sklearn.preprocessing.LabelEncoder`).
+
+#### 3. Feature Scaling:
+- Normalize or standardize your features to ensure that all of them contribute equally to the model.
+- Use Scikit-Learn’s `StandardScaler` or `MinMaxScaler` for scaling features.
+
+#### 4. Splitting the Dataset:
+- Split your data into training and testing sets to evaluate your model's performance.
+- Use Scikit-Learn’s `train_test_split` to split the data efficiently.
+
+#### 5. Feature Engineering:
+- Create new features or transform existing ones to enhance the predictive power of your model.
+
+#### 6. Dimensionality Reduction (if necessary):
+- Use techniques like PCA (Principal Component Analysis) to reduce the number of features while retaining essential information.
